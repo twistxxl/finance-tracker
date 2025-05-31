@@ -12,8 +12,8 @@
 - `date` — дата операции
 - `description` — описание операции
 - `amount` — сумма операции
-- `category` — категория (например, groceries, rent, salary)
-- `type` — тип операции (income или expense)
+- `category` — категория (например, зарплата, развлечения, еда)
+- `type` — тип операции (доход или расход)
 
 ## Стек технологий
 
@@ -21,9 +21,6 @@
 - axios для работы с API
 - json-server для эмуляции бэкенда
 
-## Перед запуском
-
-Убедитесь, что у вас установлен [Node.js](https://nodejs.org/) и [json-server](https://github.com/typicode/json-server).
 
 ## Установка зависимостей
 
@@ -34,7 +31,7 @@ npm install
 
 npx json-server --watch db.json --port 3001
  - server
- 
+
 npm start
  - client
 
