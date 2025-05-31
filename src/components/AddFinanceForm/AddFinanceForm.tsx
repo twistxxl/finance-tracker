@@ -9,7 +9,7 @@ interface FormData {
   description: string
   amount: number
   category: string
-  type: 'income' | 'expense'
+  type: 'доход' | 'расход'
 }
 interface AddFinanceFormProps {
   onSuccess?: () => void

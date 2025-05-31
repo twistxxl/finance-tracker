@@ -19,7 +19,7 @@ useEffect(() => {
   if (inView && hasMore && !loading) {
     const timer = setTimeout(() => {
       dispatch(loadMoreItems())
-    }, 500);
+    }, 500)
     return () => clearTimeout(timer)
   }
 }, [inView, hasMore, loading, dispatch])
